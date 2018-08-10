@@ -15,7 +15,7 @@ RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/httpd/conf/httpd.conf
 
 RUN sed -i 's/DirectoryIndex index.html/DirectoryIndex index.html index.php/g' /etc/httpd/conf/httpd.conf
 
-COPY . /var/www/html
+COPY . /var/www/html/devita
 
 RUN chown -R apache:apache /var/www/html
 
