@@ -540,8 +540,9 @@ Class Devita_Class {
 		wp_enqueue_script( 'countdown', get_template_directory_uri() . '/js/jquery.countdown.min.js', array('jquery'), '2.0.4', true );
 		
 		// Add jQuery counter files
-		wp_enqueue_script( 'header-color', get_template_directory_uri() . '/js/header-color.js', array('jquery'), '1.0', true );
 		wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', array('jquery'), '3.3.1', true );
+		wp_enqueue_script( 'header-color', get_template_directory_uri() . '/js/header-color.js', array('jquery'), '1.0', true );
+
 		wp_enqueue_script( 'counterup', get_template_directory_uri() . '/js/jquery.counterup.min.js', array('jquery'), '1.0', true );   
 		// Add variables.js file
 		wp_enqueue_script( 'variables', get_template_directory_uri() . '/js/variables.js', array('jquery'), '20140826', true );
