@@ -41,9 +41,9 @@ define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 
 $url = $_SERVER['REQUEST_URI'];
-
+echo $url;
 if (strpos($url, 'api/test/add-comment') !== false) {
-
+    echo $url;
     require_once('add-comment.php');
 
     exit();
