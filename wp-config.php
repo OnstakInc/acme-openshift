@@ -40,19 +40,6 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-$url = $_SERVER['REQUEST_URI'];
-
-echo $url;
-echo "Hello World!";
-exit();
-
-if (strpos($url, 'api/test/add-comment') !== false) {
-    echo $url;
-    require_once('add-comment.php');
-
-    exit();
-}
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
